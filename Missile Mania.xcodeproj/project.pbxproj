@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690D5A1B1FB28A0D00032537 /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D5A1A1FB28A0D00032537 /* SKMultilineLabel.swift */; };
+		693359261FA18D2000A3810D /* Lintsec.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 693359251FA18C0400A3810D /* Lintsec.ttf */; };
+		693359271FA18D2300A3810D /* BlackOpsOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 693359241FA18BFA00A3810D /* BlackOpsOne-Regular.ttf */; };
+		693359291FA2B89A00A3810D /* barrel.png in Resources */ = {isa = PBXBuildFile; fileRef = 693359281FA2B89A00A3810D /* barrel.png */; };
+		69611E451FBD4B6600A82975 /* GameIntroOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69611E441FBD4B6600A82975 /* GameIntroOverlay.swift */; };
+		69611E471FBD4B9300A82975 /* GameIntroOverlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69611E461FBD4B9300A82975 /* GameIntroOverlay.sks */; };
+		69793EC91F97080F0016463D /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69793EC81F97080F0016463D /* Bullet.swift */; };
+		69831C911FD6172200DBEA57 /* ingame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69831C8F1FD6172100DBEA57 /* ingame.mp3 */; };
+		69831C921FD6172200DBEA57 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69831C901FD6172100DBEA57 /* intro.mp3 */; };
+		69831C941FD6172F00DBEA57 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69831C931FD6172F00DBEA57 /* explosion.mp3 */; };
+		69831C961FD6173A00DBEA57 /* launch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69831C951FD6173A00DBEA57 /* launch.mp3 */; };
+		69831C9A1FD6254400DBEA57 /* newLaunch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69831C991FD6254400DBEA57 /* newLaunch.mp3 */; };
+		69831C9C1FD6259F00DBEA57 /* cutLaunch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69831C9B1FD6259F00DBEA57 /* cutLaunch.mp3 */; };
+		699F01861FF8116000B55DEF /* GameOverOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F01851FF8116000B55DEF /* GameOverOverlay.swift */; };
+		699F018A1FF81DA400B55DEF /* GameOverOverlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = 699F01891FF81DA400B55DEF /* GameOverOverlay.sks */; };
+		699F018C1FF845AF00B55DEF /* siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 699F018B1FF845AE00B55DEF /* siren.mp3 */; };
+		69BABD731F80487F0059271E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD721F80487F0059271E /* AppDelegate.swift */; };
+		69BABD751F80487F0059271E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD741F80487F0059271E /* art.scnassets */; };
+		69BABD771F80487F0059271E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD761F80487F0059271E /* GameViewController.swift */; };
+		69BABD7A1F80487F0059271E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD781F80487F0059271E /* Main.storyboard */; };
+		69BABD7C1F80487F0059271E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD7B1F80487F0059271E /* Assets.xcassets */; };
+		69BABD7F1F80487F0059271E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD7D1F80487F0059271E /* LaunchScreen.storyboard */; };
+		69BABD8B1F8049510059271E /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD8A1F8049510059271E /* Missile.swift */; };
+		69BABD8D1F80495B0059271E /* MissileLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD8C1F80495A0059271E /* MissileLaunchViewController.swift */; };
+		69BABD8F1F80496E0059271E /* TargetAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD8E1F80496E0059271E /* TargetAppViewController.swift */; };
+		69BABD901F80549E0059271E /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD871F8049490059271E /* smoke.scnp */; };
+		69BABD911F8054B00059271E /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD881F8049490059271E /* smoke.png */; };
+		69BABD921F8054B20059271E /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD861F8049490059271E /* fire.scnp */; };
+		69BABD931F8054BA0059271E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD891F80494A0059271E /* spark.png */; };
+		69C4704B1FF2F9AA009E1A93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C4704A1FF2F9AA009E1A93 /* Default-568h@2x.png */; };
+		69D1532E1F985F5700547285 /* GameOverlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69D1532D1F985F5700547285 /* GameOverlay.sks */; };
+		69D153311F98621A00547285 /* GameOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D153301F98621A00547285 /* GameOverlay.swift */; };
+		69D153331F99708900547285 /* GameplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D153321F99708800547285 /* GameplayController.swift */; };
+		69D153351F9A604B00547285 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D153341F9A604B00547285 /* MainPage.swift */; };
+		69D153371F9A605A00547285 /* MainPage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69D153361F9A605A00547285 /* MainPage.sks */; };
+		69D1533C1F9A612C00547285 /* metalBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D1533B1F9A612C00547285 /* metalBG.jpg */; };
+		69D1533E1F9A621800547285 /* metalBG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D1533D1F9A621800547285 /* metalBG2.jpg */; };
+		69D153411F9A706600547285 /* metalBG3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69D153431F9A706600547285 /* metalBG3.jpg */; };
+		A472D45591A2B55CAF467BD0 /* Pods_Missile_Mania.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49F88669D7BA7CF7950DD11 /* Pods_Missile_Mania.framework */; };
+		D50F7E2F1203D159FC16476E /* Pods_StopTheMissiles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A59B2BD061841A850A28B9 /* Pods_StopTheMissiles.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FE3DFD9EC58AA7A07C8A685 /* Pods-StopTheMissiles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopTheMissiles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StopTheMissiles/Pods-StopTheMissiles.debug.xcconfig"; sourceTree = "<group>"; };
+		690D5A1A1FB28A0D00032537 /* SKMultilineLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
+		693359241FA18BFA00A3810D /* BlackOpsOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlackOpsOne-Regular.ttf"; sourceTree = "<group>"; };
+		693359251FA18C0400A3810D /* Lintsec.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lintsec.ttf; sourceTree = "<group>"; };
+		693359281FA2B89A00A3810D /* barrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barrel.png; sourceTree = "<group>"; };
+		69611E441FBD4B6600A82975 /* GameIntroOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIntroOverlay.swift; sourceTree = "<group>"; };
+		69611E461FBD4B9300A82975 /* GameIntroOverlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameIntroOverlay.sks; sourceTree = "<group>"; };
+		69793EC81F97080F0016463D /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		69831C8F1FD6172100DBEA57 /* ingame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ingame.mp3; sourceTree = "<group>"; };
+		69831C901FD6172100DBEA57 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+		69831C931FD6172F00DBEA57 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		69831C951FD6173A00DBEA57 /* launch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = launch.mp3; sourceTree = "<group>"; };
+		69831C991FD6254400DBEA57 /* newLaunch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = newLaunch.mp3; sourceTree = "<group>"; };
+		69831C9B1FD6259F00DBEA57 /* cutLaunch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cutLaunch.mp3; sourceTree = "<group>"; };
+		699F01851FF8116000B55DEF /* GameOverOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverOverlay.swift; sourceTree = "<group>"; };
+		699F01891FF81DA400B55DEF /* GameOverOverlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverOverlay.sks; sourceTree = "<group>"; };
+		699F018B1FF845AE00B55DEF /* siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren.mp3; sourceTree = "<group>"; };
+		69BABD6F1F80487E0059271E /* Missile Mania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Missile Mania.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BABD721F80487F0059271E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69BABD741F80487F0059271E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		69BABD761F80487F0059271E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		69BABD791F80487F0059271E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69BABD7B1F80487F0059271E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69BABD7E1F80487F0059271E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69BABD801F80487F0059271E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/tylerbrady/Projects/Free Lance/StopTheMissiles/Missile Mania/Info.plist"; sourceTree = "<absolute>"; };
+		69BABD861F8049490059271E /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
+		69BABD871F8049490059271E /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		69BABD881F8049490059271E /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		69BABD891F80494A0059271E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		69BABD8A1F8049510059271E /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		69BABD8C1F80495A0059271E /* MissileLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissileLaunchViewController.swift; sourceTree = "<group>"; };
+		69BABD8E1F80496E0059271E /* TargetAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAppViewController.swift; sourceTree = "<group>"; };
+		69C4704A1FF2F9AA009E1A93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		69D1532D1F985F5700547285 /* GameOverlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverlay.sks; sourceTree = "<group>"; };
+		69D153301F98621A00547285 /* GameOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverlay.swift; sourceTree = "<group>"; };
+		69D153321F99708800547285 /* GameplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayController.swift; sourceTree = "<group>"; };
+		69D153341F9A604B00547285 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		69D153361F9A605A00547285 /* MainPage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainPage.sks; sourceTree = "<group>"; };
+		69D1533B1F9A612C00547285 /* metalBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metalBG.jpg; sourceTree = "<group>"; };
+		69D1533D1F9A621800547285 /* metalBG2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metalBG2.jpg; sourceTree = "<group>"; };
+		69D153421F9A706600547285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/metalBG3.jpg; sourceTree = "<group>"; };
+		90A59B2BD061841A850A28B9 /* Pods_StopTheMissiles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StopTheMissiles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B374A787CBC4C714C5881ECE /* Pods-Missile Mania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Missile Mania.release.xcconfig"; path = "Pods/Target Support Files/Pods-Missile Mania/Pods-Missile Mania.release.xcconfig"; sourceTree = "<group>"; };
+		B49F88669D7BA7CF7950DD11 /* Pods_Missile_Mania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Missile_Mania.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4752AD2CA0DF176B66BBAC /* Pods-StopTheMissiles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StopTheMissiles.release.xcconfig"; path = "Pods/Target Support Files/Pods-StopTheMissiles/Pods-StopTheMissiles.release.xcconfig"; sourceTree = "<group>"; };
+		C82CFA77F9AC3C24FF7C45ED /* Pods-Missile Mania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Missile Mania.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Missile Mania/Pods-Missile Mania.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69BABD6C1F80487E0059271E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F7E2F1203D159FC16476E /* Pods_StopTheMissiles.framework in Frameworks */,
+				A472D45591A2B55CAF467BD0 /* Pods_Missile_Mania.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4904EADCCD97DD2E6D9E8A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90A59B2BD061841A850A28B9 /* Pods_StopTheMissiles.framework */,
+				B49F88669D7BA7CF7950DD11 /* Pods_Missile_Mania.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69831C8E1FD6171700DBEA57 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				699F018B1FF845AE00B55DEF /* siren.mp3 */,
+				69831C931FD6172F00DBEA57 /* explosion.mp3 */,
+				69831C8F1FD6172100DBEA57 /* ingame.mp3 */,
+				69831C901FD6172100DBEA57 /* intro.mp3 */,
+				69831C951FD6173A00DBEA57 /* launch.mp3 */,
+				69831C9B1FD6259F00DBEA57 /* cutLaunch.mp3 */,
+				69831C991FD6254400DBEA57 /* newLaunch.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		69BABD661F80487E0059271E = {
+			isa = PBXGroup;
+			children = (
+				69C4704A1FF2F9AA009E1A93 /* Default-568h@2x.png */,
+				69BABD711F80487F0059271E /* Missile Mania */,
+				69BABD701F80487F0059271E /* Products */,
+				D25960A183B5397929FB2984 /* Pods */,
+				4904EADCCD97DD2E6D9E8A53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		69BABD701F80487F0059271E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69BABD6F1F80487E0059271E /* Missile Mania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69BABD711F80487F0059271E /* Missile Mania */ = {
+			isa = PBXGroup;
+			children = (
+				69831C8E1FD6171700DBEA57 /* audio */,
+				69D153381F9A60B300547285 /* Images */,
+				69D1532C1F985F4100547285 /* SKScenes */,
+				69D1532F1F98620500547285 /* SKSceneClasses */,
+				69D153391F9A60CE00547285 /* Model */,
+				69D1533A1F9A60E100547285 /* Controller */,
+				69BABD781F80487F0059271E /* Main.storyboard */,
+				69BABD721F80487F0059271E /* AppDelegate.swift */,
+				69BABD8E1F80496E0059271E /* TargetAppViewController.swift */,
+				69BABD741F80487F0059271E /* art.scnassets */,
+				69BABD7B1F80487F0059271E /* Assets.xcassets */,
+				693359251FA18C0400A3810D /* Lintsec.ttf */,
+				693359241FA18BFA00A3810D /* BlackOpsOne-Regular.ttf */,
+				69BABD7D1F80487F0059271E /* LaunchScreen.storyboard */,
+				69BABD801F80487F0059271E /* Info.plist */,
+			);
+			path = "Missile Mania";
+			sourceTree = "<group>";
+		};
+		69D1532C1F985F4100547285 /* SKScenes */ = {
+			isa = PBXGroup;
+			children = (
+				69D1532D1F985F5700547285 /* GameOverlay.sks */,
+				69D153361F9A605A00547285 /* MainPage.sks */,
+				69611E461FBD4B9300A82975 /* GameIntroOverlay.sks */,
+				699F01891FF81DA400B55DEF /* GameOverOverlay.sks */,
+			);
+			path = SKScenes;
+			sourceTree = "<group>";
+		};
+		69D1532F1F98620500547285 /* SKSceneClasses */ = {
+			isa = PBXGroup;
+			children = (
+				69D153301F98621A00547285 /* GameOverlay.swift */,
+				69D153341F9A604B00547285 /* MainPage.swift */,
+				69611E441FBD4B6600A82975 /* GameIntroOverlay.swift */,
+				699F01851FF8116000B55DEF /* GameOverOverlay.swift */,
+			);
+			path = SKSceneClasses;
+			sourceTree = "<group>";
+		};
+		69D153381F9A60B300547285 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				693359281FA2B89A00A3810D /* barrel.png */,
+				69D1533B1F9A612C00547285 /* metalBG.jpg */,
+				69D1533D1F9A621800547285 /* metalBG2.jpg */,
+				69D153431F9A706600547285 /* metalBG3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		69D153391F9A60CE00547285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69BABD861F8049490059271E /* fire.scnp */,
+				69BABD881F8049490059271E /* smoke.png */,
+				69BABD871F8049490059271E /* smoke.scnp */,
+				69BABD891F80494A0059271E /* spark.png */,
+				69BABD8A1F8049510059271E /* Missile.swift */,
+				69793EC81F97080F0016463D /* Bullet.swift */,
+				690D5A1A1FB28A0D00032537 /* SKMultilineLabel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69D1533A1F9A60E100547285 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69BABD761F80487F0059271E /* GameViewController.swift */,
+				69D153321F99708800547285 /* GameplayController.swift */,
+				69BABD8C1F80495A0059271E /* MissileLaunchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D25960A183B5397929FB2984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE3DFD9EC58AA7A07C8A685 /* Pods-StopTheMissiles.debug.xcconfig */,
+				BA4752AD2CA0DF176B66BBAC /* Pods-StopTheMissiles.release.xcconfig */,
+				C82CFA77F9AC3C24FF7C45ED /* Pods-Missile Mania.debug.xcconfig */,
+				B374A787CBC4C714C5881ECE /* Pods-Missile Mania.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69BABD6E1F80487E0059271E /* Missile Mania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69BABD831F80487F0059271E /* Build configuration list for PBXNativeTarget "Missile Mania" */;
+			buildPhases = (
+				1D4E86C697E7203972D24BBD /* [CP] Check Pods Manifest.lock */,
+				69BABD6B1F80487E0059271E /* Sources */,
+				69BABD6C1F80487E0059271E /* Frameworks */,
+				69BABD6D1F80487E0059271E /* Resources */,
+				396CADB3A966D27D189D9DEF /* [CP] Embed Pods Frameworks */,
+				1E18A9FB6679ED304A508BE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Missile Mania";
+			productName = StopTheMissiles;
+			productReference = 69BABD6F1F80487E0059271E /* Missile Mania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69BABD671F80487E0059271E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "The App Men";
+				TargetAttributes = {
+					69BABD6E1F80487E0059271E = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 69BABD6A1F80487E0059271E /* Build configuration list for PBXProject "Missile Mania" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69BABD661F80487E0059271E;
+			productRefGroup = 69BABD701F80487F0059271E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69BABD6E1F80487E0059271E /* Missile Mania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69BABD6D1F80487E0059271E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693359271FA18D2300A3810D /* BlackOpsOne-Regular.ttf in Resources */,
+				69831C921FD6172200DBEA57 /* intro.mp3 in Resources */,
+				69D1532E1F985F5700547285 /* GameOverlay.sks in Resources */,
+				69831C911FD6172200DBEA57 /* ingame.mp3 in Resources */,
+				69BABD751F80487F0059271E /* art.scnassets in Resources */,
+				69C4704B1FF2F9AA009E1A93 /* Default-568h@2x.png in Resources */,
+				69BABD911F8054B00059271E /* smoke.png in Resources */,
+				699F018A1FF81DA400B55DEF /* GameOverOverlay.sks in Resources */,
+				69831C941FD6172F00DBEA57 /* explosion.mp3 in Resources */,
+				69D153411F9A706600547285 /* metalBG3.jpg in Resources */,
+				69611E471FBD4B9300A82975 /* GameIntroOverlay.sks in Resources */,
+				69831C9A1FD6254400DBEA57 /* newLaunch.mp3 in Resources */,
+				693359291FA2B89A00A3810D /* barrel.png in Resources */,
+				69BABD921F8054B20059271E /* fire.scnp in Resources */,
+				693359261FA18D2000A3810D /* Lintsec.ttf in Resources */,
+				69831C9C1FD6259F00DBEA57 /* cutLaunch.mp3 in Resources */,
+				699F018C1FF845AF00B55DEF /* siren.mp3 in Resources */,
+				69BABD7F1F80487F0059271E /* LaunchScreen.storyboard in Resources */,
+				69BABD7C1F80487F0059271E /* Assets.xcassets in Resources */,
+				69D1533E1F9A621800547285 /* metalBG2.jpg in Resources */,
+				69D1533C1F9A612C00547285 /* metalBG.jpg in Resources */,
+				69BABD931F8054BA0059271E /* spark.png in Resources */,
+				69831C961FD6173A00DBEA57 /* launch.mp3 in Resources */,
+				69D153371F9A605A00547285 /* MainPage.sks in Resources */,
+				69BABD901F80549E0059271E /* smoke.scnp in Resources */,
+				69BABD7A1F80487F0059271E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D4E86C697E7203972D24BBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Missile Mania-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E18A9FB6679ED304A508BE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Missile Mania/Pods-Missile Mania-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396CADB3A966D27D189D9DEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Missile Mania/Pods-Missile Mania-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69BABD6B1F80487E0059271E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699F01861FF8116000B55DEF /* GameOverOverlay.swift in Sources */,
+				69BABD8D1F80495B0059271E /* MissileLaunchViewController.swift in Sources */,
+				69BABD771F80487F0059271E /* GameViewController.swift in Sources */,
+				690D5A1B1FB28A0D00032537 /* SKMultilineLabel.swift in Sources */,
+				69D153351F9A604B00547285 /* MainPage.swift in Sources */,
+				69D153311F98621A00547285 /* GameOverlay.swift in Sources */,
+				69BABD8B1F8049510059271E /* Missile.swift in Sources */,
+				69611E451FBD4B6600A82975 /* GameIntroOverlay.swift in Sources */,
+				69BABD731F80487F0059271E /* AppDelegate.swift in Sources */,
+				69BABD8F1F80496E0059271E /* TargetAppViewController.swift in Sources */,
+				69793EC91F97080F0016463D /* Bullet.swift in Sources */,
+				69D153331F99708900547285 /* GameplayController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69BABD781F80487F0059271E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69BABD791F80487F0059271E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69BABD7D1F80487F0059271E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69BABD7E1F80487F0059271E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		69D153431F9A706600547285 /* metalBG3.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D153421F9A706600547285 /* Base */,
+			);
+			name = metalBG3.jpg;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69BABD811F80487F0059271E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69BABD821F80487F0059271E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69BABD841F80487F0059271E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82CFA77F9AC3C24FF7C45ED /* Pods-Missile Mania.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN2K499SAS;
+				INFOPLIST_FILE = "$(SRCROOT)/Missile Mania/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmen.MissileMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69BABD851F80487F0059271E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B374A787CBC4C714C5881ECE /* Pods-Missile Mania.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN2K499SAS;
+				INFOPLIST_FILE = "$(SRCROOT)/Missile Mania/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmen.MissileMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69BABD6A1F80487E0059271E /* Build configuration list for PBXProject "Missile Mania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BABD811F80487F0059271E /* Debug */,
+				69BABD821F80487F0059271E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69BABD831F80487F0059271E /* Build configuration list for PBXNativeTarget "Missile Mania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BABD841F80487F0059271E /* Debug */,
+				69BABD851F80487F0059271E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69BABD671F80487E0059271E /* Project object */;
+}
