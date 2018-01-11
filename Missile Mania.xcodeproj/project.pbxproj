@@ -31,7 +31,6 @@
 		69BABD7F1F80487F0059271E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD7D1F80487F0059271E /* LaunchScreen.storyboard */; };
 		69BABD8B1F8049510059271E /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD8A1F8049510059271E /* Missile.swift */; };
 		69BABD8D1F80495B0059271E /* MissileLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD8C1F80495A0059271E /* MissileLaunchViewController.swift */; };
-		69BABD8F1F80496E0059271E /* TargetAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BABD8E1F80496E0059271E /* TargetAppViewController.swift */; };
 		69BABD901F80549E0059271E /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD871F8049490059271E /* smoke.scnp */; };
 		69BABD911F8054B00059271E /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD881F8049490059271E /* smoke.png */; };
 		69BABD921F8054B20059271E /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 69BABD861F8049490059271E /* fire.scnp */; };
@@ -81,7 +80,6 @@
 		69BABD891F80494A0059271E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		69BABD8A1F8049510059271E /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
 		69BABD8C1F80495A0059271E /* MissileLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissileLaunchViewController.swift; sourceTree = "<group>"; };
-		69BABD8E1F80496E0059271E /* TargetAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAppViewController.swift; sourceTree = "<group>"; };
 		69C4704A1FF2F9AA009E1A93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		69D1532D1F985F5700547285 /* GameOverlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverlay.sks; sourceTree = "<group>"; };
 		69D153301F98621A00547285 /* GameOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverlay.swift; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 				69D1533A1F9A60E100547285 /* Controller */,
 				69BABD781F80487F0059271E /* Main.storyboard */,
 				69BABD721F80487F0059271E /* AppDelegate.swift */,
-				69BABD8E1F80496E0059271E /* TargetAppViewController.swift */,
 				69BABD741F80487F0059271E /* art.scnassets */,
 				69BABD7B1F80487F0059271E /* Assets.xcassets */,
 				693359251FA18C0400A3810D /* Lintsec.ttf */,
@@ -400,7 +397,6 @@
 				69BABD8B1F8049510059271E /* Missile.swift in Sources */,
 				69611E451FBD4B6600A82975 /* GameIntroOverlay.swift in Sources */,
 				69BABD731F80487F0059271E /* AppDelegate.swift in Sources */,
-				69BABD8F1F80496E0059271E /* TargetAppViewController.swift in Sources */,
 				69793EC91F97080F0016463D /* Bullet.swift in Sources */,
 				69D153331F99708900547285 /* GameplayController.swift in Sources */,
 			);
