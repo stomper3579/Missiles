@@ -1,0 +1,15 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.27.0)
+  - OpenEars (0.0.8)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - OpenEars (~> 0.0)
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 83f7f890e638ce8f1debd440ea363338c9f6be3b
+  OpenEars: 756eb18c3cd86cacadbf187a13c7328377991ecc
+
+PODFILE CHECKSUM: 20d53e1c0d1e1d718bb86741dbfe68d9770480f6
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429DA0EF534A84F58B9A7A49522F91FB /* Pods-Missile Mania-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D84C35F69DD8379C82B2B6C0398C8 /* Pods-Missile Mania-dummy.m */; };
+		B3CC7163035DE1940E326750100763CB /* Pods-Missile Mania-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D813B56EA1CC4E38D1E08C65297D2E /* Pods-Missile Mania-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC78A445790B2648FFEC5BA525BEFD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006167B5C18DE797A072D8EF44A9BB16 /* us_regexes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_regexes.h; path = OpenEars/Classes/us_regexes.h; sourceTree = "<group>"; };
+		020B252FF97F83311223E4FFDD26E2E8 /* OEPocketsphinxController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEPocketsphinxController.h; path = OpenEars/Classes/OEPocketsphinxController.h; sourceTree = "<group>"; };
+		02F531E384C17B8BB76BBF80AC66FD75 /* cst_tokenstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_tokenstream.h; path = OpenEars/Classes/cst_tokenstream.h; sourceTree = "<group>"; };
+		08C5A31726921EF24D601864DB153804 /* cmdln_macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmdln_macro.h; path = OpenEars/Classes/cmdln_macro.h; sourceTree = "<group>"; };
+		0A81D1E673F4856EEAF6651EDE5369BC /* cmd_ln.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmd_ln.h; path = OpenEars/Classes/cmd_ln.h; sourceTree = "<group>"; };
+		0DCDC974D603F63618292A1359052528 /* sbthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sbthread.h; path = OpenEars/Classes/sbthread.h; sourceTree = "<group>"; };
+		0DD9BE739DDC30951E9E2FEBB99BC87F /* pio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pio.h; path = OpenEars/Classes/pio.h; sourceTree = "<group>"; };
+		101E13199C15BDBB446ED5CC45B808A3 /* OELanguageModelGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OELanguageModelGenerator.h; path = OpenEars/Classes/OELanguageModelGenerator.h; sourceTree = "<group>"; };
+		1172130CEEDDF8EDC843126637B3C612 /* ps_lattice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ps_lattice.h; path = OpenEars/Classes/ps_lattice.h; sourceTree = "<group>"; };
+		125FACD342258568A2E8B211849DFA30 /* native_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = native_audio.h; path = OpenEars/Classes/native_audio.h; sourceTree = "<group>"; };
+		13B53CCD1695D6DCA54914C1E0565216 /* flite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = flite.h; path = OpenEars/Classes/flite.h; sourceTree = "<group>"; };
+		13CE80278FE039723D13F4C3C9A1843F /* cst_file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_file.h; path = OpenEars/Classes/cst_file.h; sourceTree = "<group>"; };
+		152F89190367A35DD193C4605E172B07 /* ngram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram.h; path = OpenEars/Classes/ngram.h; sourceTree = "<group>"; };
+		15DE915ACE24927E7EB61C2E4E9B31A1 /* us_phrasing_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_phrasing_cart.h; path = OpenEars/Classes/us_phrasing_cart.h; sourceTree = "<group>"; };
+		15EE9F6332295648A3028C4F9B67E57F /* state_align_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = state_align_search.h; path = OpenEars/Classes/state_align_search.h; sourceTree = "<group>"; };
+		18E695039552C24818F020000A5CD501 /* cst_features.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_features.h; path = OpenEars/Classes/cst_features.h; sourceTree = "<group>"; };
+		190E00E0BA4A78CE4D2CBCEFD5AEFF68 /* sphinx_wave2feat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sphinx_wave2feat.h; path = OpenEars/Classes/sphinx_wave2feat.h; sourceTree = "<group>"; };
+		197C21AFC8DA657D4802F983B27608CE /* cst_string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_string.h; path = OpenEars/Classes/cst_string.h; sourceTree = "<group>"; };
+		1E303C2D1BCA345AC99DE83F9DC79FE9 /* filename.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filename.h; path = OpenEars/Classes/filename.h; sourceTree = "<group>"; };
+		1EB461051ECFC9FB67E27BA849527BC1 /* cst_ffeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_ffeatures.h; path = OpenEars/Classes/cst_ffeatures.h; sourceTree = "<group>"; };
+		1F2F5DABD3627BEE0C725CB94163F4D0 /* jsgf_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jsgf_parser.h; path = OpenEars/Classes/jsgf_parser.h; sourceTree = "<group>"; };
+		1F439CC2A73214FFE27990A16E61ACA2 /* case.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = case.h; path = OpenEars/Classes/case.h; sourceTree = "<group>"; };
+		1F851AD40F5A7673D02860C9DE9F36CF /* us_int_accent_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_int_accent_cart.h; path = OpenEars/Classes/us_int_accent_cart.h; sourceTree = "<group>"; };
+		2015CA16365D0D25EB11A881BB784BBB /* cst_val_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_val_const.h; path = OpenEars/Classes/cst_val_const.h; sourceTree = "<group>"; };
+		2113760843A5042AF76DB79AF62A5831 /* ms_mgau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ms_mgau.h; path = OpenEars/Classes/ms_mgau.h; sourceTree = "<group>"; };
+		22688F28424116E64034EA9793083784 /* lm_trie_quant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_trie_quant.h; path = OpenEars/Classes/lm_trie_quant.h; sourceTree = "<group>"; };
+		22890D6240846935B94200BD6FDEA3B8 /* fsg_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fsg_model.h; path = OpenEars/Classes/fsg_model.h; sourceTree = "<group>"; };
+		23A6C38EA5A99FA7E9E56A3795C1EC7E /* genrand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genrand.h; path = OpenEars/Classes/genrand.h; sourceTree = "<group>"; };
+		24FE28743E6C114D2EE09D6B34A44C8A /* OEGraphemeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEGraphemeGenerator.h; path = OpenEars/Classes/OEGraphemeGenerator.h; sourceTree = "<group>"; };
+		273F7DAFBD0DD6443E211BD3E9955CB4 /* phone_loop_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = phone_loop_search.h; path = OpenEars/Classes/phone_loop_search.h; sourceTree = "<group>"; };
+		276EA85A6DB0CD9EB34C7BADDBD42832 /* cmd_ln_defn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmd_ln_defn.h; path = OpenEars/Classes/cmd_ln_defn.h; sourceTree = "<group>"; };
+		29DBB8394AE25908A944700D5C981629 /* cst_val.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_val.h; path = OpenEars/Classes/cst_val.h; sourceTree = "<group>"; };
+		2A21AA28CD6A1192B8304F4E2A8FED86 /* cst_hrg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_hrg.h; path = OpenEars/Classes/cst_hrg.h; sourceTree = "<group>"; };
+		2CCE4403D9E516DA0539A7482168E371 /* bitvec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitvec.h; path = OpenEars/Classes/bitvec.h; sourceTree = "<group>"; };
+		2CEE8699B24E32FA79732D432C3CAA5A /* fe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe.h; path = OpenEars/Classes/fe.h; sourceTree = "<group>"; };
+		2D0248A4E5C8D8DE8B598C9FD7431394 /* cst_diphone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_diphone.h; path = OpenEars/Classes/cst_diphone.h; sourceTree = "<group>"; };
+		2D1C45008F83E951AE9CBF4381C53748 /* yin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yin.h; path = OpenEars/Classes/yin.h; sourceTree = "<group>"; };
+		2DFFF538AAF7086E5699B446CDBEC9AD /* disc_meth_witten_bell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = disc_meth_witten_bell.h; path = OpenEars/Classes/disc_meth_witten_bell.h; sourceTree = "<group>"; };
+		2E125EEB8BDDE7976CEA255A0D10879D /* fsg_history.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fsg_history.h; path = OpenEars/Classes/fsg_history.h; sourceTree = "<group>"; };
+		301FA65DAE9A454398FC3AE6DE48E4C4 /* feat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = feat.h; path = OpenEars/Classes/feat.h; sourceTree = "<group>"; };
+		30CA68EF7C01772369FDD9056D33ED0A /* us_pos_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_pos_cart.h; path = OpenEars/Classes/us_pos_cart.h; sourceTree = "<group>"; };
+		33FBBEB4351207938DD9AD514273E526 /* hmm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmm.h; path = OpenEars/Classes/hmm.h; sourceTree = "<group>"; };
+		3469C08CE8C02050BC9D417A96CF30FD /* cst_lts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_lts.h; path = OpenEars/Classes/cst_lts.h; sourceTree = "<group>"; };
+		36831F18CB62C054B1FC98FDD62301FE /* Pods-Missile Mania-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Missile Mania-frameworks.sh"; sourceTree = "<group>"; };
+		3753CE0258A1CAC93DA02BC71FB5FC72 /* Pods-Missile Mania-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Missile Mania-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3918AC32D66D12C61F405934C1D7560C /* ps_mllr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ps_mllr.h; path = OpenEars/Classes/ps_mllr.h; sourceTree = "<group>"; };
+		39A1471705433E98F9B5ECDC60D99333 /* OEFliteController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEFliteController.h; path = OpenEars/Classes/OEFliteController.h; sourceTree = "<group>"; };
+		3AA2B0124B83B8DCD8A23BA0A5F96DE0 /* cst_clunits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_clunits.h; path = OpenEars/Classes/cst_clunits.h; sourceTree = "<group>"; };
+		3D8CA63EBB214C8BE03D210F3D28F0B3 /* mulaw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mulaw.h; path = OpenEars/Classes/mulaw.h; sourceTree = "<group>"; };
+		3D9A5CED54BB70829DAB887D86C17397 /* OEGrammarDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEGrammarDefinitions.h; path = OpenEars/Classes/OEGrammarDefinitions.h; sourceTree = "<group>"; };
+		3ECF53F4FB19ACE99885383DD0D8D23E /* jsgf_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jsgf_internal.h; path = OpenEars/Classes/jsgf_internal.h; sourceTree = "<group>"; };
+		3FA65B54B88D532515B3F646D7D017DE /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = OpenEars/Classes/matrix.h; sourceTree = "<group>"; };
+		4226A318F87062F11B266CB0BE671D75 /* ngram_search_fwdflat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_search_fwdflat.h; path = OpenEars/Classes/ngram_search_fwdflat.h; sourceTree = "<group>"; };
+		4390635C2DA6159718ED17DF96A14C7E /* pocketsphinx_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pocketsphinx_internal.h; path = OpenEars/Classes/pocketsphinx_internal.h; sourceTree = "<group>"; };
+		43D89C3030563CEA5556BB63BE9E9666 /* ps_lattice_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ps_lattice_internal.h; path = OpenEars/Classes/ps_lattice_internal.h; sourceTree = "<group>"; };
+		4425C3566DC3269D6BAE26552A7DAAB4 /* cst_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_endian.h; path = OpenEars/Classes/cst_endian.h; sourceTree = "<group>"; };
+		44267099100772CBB8E0C4C04EAB8204 /* cst_socket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_socket.h; path = OpenEars/Classes/cst_socket.h; sourceTree = "<group>"; };
+		44BFCC8C592DFE6944089A0D19C1EFB8 /* ckd_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ckd_alloc.h; path = OpenEars/Classes/ckd_alloc.h; sourceTree = "<group>"; };
+		451E914723A689C29255016F1482412E /* Pods-Missile Mania-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Missile Mania-resources.sh"; sourceTree = "<group>"; };
+		46DBE42C20DA4E0B9DA1204DAA5A13EF /* cst_wchar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_wchar.h; path = OpenEars/Classes/cst_wchar.h; sourceTree = "<group>"; };
+		47E6A315484FE694E748054663C30D5F /* us_nums_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_nums_cart.h; path = OpenEars/Classes/us_nums_cart.h; sourceTree = "<group>"; };
+		4AA1B7782C536E656CE34CAE7219DF11 /* Pods-Missile Mania.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Missile Mania.release.xcconfig"; sourceTree = "<group>"; };
+		4ADFDFCFA010B2851DCF12E813F5046A /* cmu_lts_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmu_lts_model.h; path = OpenEars/Classes/cmu_lts_model.h; sourceTree = "<group>"; };
+		4C5DAB17742EB6202828C046C3273E50 /* cst_viterbi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_viterbi.h; path = OpenEars/Classes/cst_viterbi.h; sourceTree = "<group>"; };
+		4C69249C089CC1DAD8F3E29EDC831111 /* mmio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mmio.h; path = OpenEars/Classes/mmio.h; sourceTree = "<group>"; };
+		4D621D81E5BE53342162E9732D8E45B7 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = OpenEars/Classes/heap.h; sourceTree = "<group>"; };
+		4DE701C340AD9057E0EFC2F83BA308A3 /* cst_wave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_wave.h; path = OpenEars/Classes/cst_wave.h; sourceTree = "<group>"; };
+		4FCE767A8ADE9012649E896954247BEA /* fe_noise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_noise.h; path = OpenEars/Classes/fe_noise.h; sourceTree = "<group>"; };
+		4FF1A9B0AB2AA58D1CBADDA7FE1B8004 /* OEGrammarGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEGrammarGenerator.h; path = OpenEars/Classes/OEGrammarGenerator.h; sourceTree = "<group>"; };
+		4FFDB6F06F304F78779B4481A557697C /* ac_parsetext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ac_parsetext.h; path = OpenEars/Classes/ac_parsetext.h; sourceTree = "<group>"; };
+		5056BF08E1EB7134A9573668F686D3DC /* listelem_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = listelem_alloc.h; path = OpenEars/Classes/listelem_alloc.h; sourceTree = "<group>"; };
+		53CAF9CC525D558E8B162F1B16037401 /* byteorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = byteorder.h; path = OpenEars/Classes/byteorder.h; sourceTree = "<group>"; };
+		53D5DC2F4443A824E1879479EDD965FF /* us_text.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_text.h; path = OpenEars/Classes/us_text.h; sourceTree = "<group>"; };
+		5474949FD76942DCF25A23BBF24F440E /* cst_lexicon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_lexicon.h; path = OpenEars/Classes/cst_lexicon.h; sourceTree = "<group>"; };
+		5559B466D41ACB1C188ECFD013BCFAC2 /* lm3g_model_legacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm3g_model_legacy.h; path = OpenEars/Classes/lm3g_model_legacy.h; sourceTree = "<group>"; };
+		58356DFF29126D35F0F861CAA9B95EE4 /* ngram_model.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model.h; path = OpenEars/Classes/ngram_model.h; sourceTree = "<group>"; };
+		58360249CEA05B732A4FC518A1A2BB93 /* priority_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = priority_queue.h; path = OpenEars/Classes/priority_queue.h; sourceTree = "<group>"; };
+		584DEE92FBCCBD6ACCD186471F66DC54 /* fixpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fixpoint.h; path = OpenEars/Classes/fixpoint.h; sourceTree = "<group>"; };
+		59ECDF27CD23B17C5FB3B52DCCC22665 /* cst_units.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_units.h; path = OpenEars/Classes/cst_units.h; sourceTree = "<group>"; };
+		5A4A7DA83F3812BA98A5B514D04A0CC0 /* OECommandArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OECommandArray.h; path = OpenEars/Classes/OECommandArray.h; sourceTree = "<group>"; };
+		5C68D6200148A91FB4AEA75B637CDDFE /* fe_warp_affine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_warp_affine.h; path = OpenEars/Classes/fe_warp_affine.h; sourceTree = "<group>"; };
+		5D8FB27A5E26B8B27DB9D6B342C376D5 /* hash_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash_table.h; path = OpenEars/Classes/hash_table.h; sourceTree = "<group>"; };
+		5E0F0837B21EC29C5752BCF030FBF8C6 /* s2_semi_mgau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = s2_semi_mgau.h; path = OpenEars/Classes/s2_semi_mgau.h; sourceTree = "<group>"; };
+		5E4BB025EDF719B91E4D38054AE2CDEA /* logmath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = logmath.h; path = OpenEars/Classes/logmath.h; sourceTree = "<group>"; };
+		5F7EBFF32807BD042275875D351119E0 /* sphinx_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sphinx_config.h; path = OpenEars/Classes/sphinx_config.h; sourceTree = "<group>"; };
+		6112CE7F05A59D037E285D230A056A33 /* cst_utterance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_utterance.h; path = OpenEars/Classes/cst_utterance.h; sourceTree = "<group>"; };
+		619206B3CADFDDB6E4956F8564BA23CC /* OEContinuousAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEContinuousAudioUnit.h; path = OpenEars/Classes/OEContinuousAudioUnit.h; sourceTree = "<group>"; };
+		621A557BD91319492901EA23AA997542 /* OEPocketsphinxRunConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEPocketsphinxRunConfig.h; path = OpenEars/Classes/OEPocketsphinxRunConfig.h; sourceTree = "<group>"; };
+		62A0C9C9DEAAEC7EA82CF218AE051129 /* mdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdef.h; path = OpenEars/Classes/mdef.h; sourceTree = "<group>"; };
+		62B9CF209F3D7B3429C95EB8A2C06BD6 /* disc_meth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = disc_meth.h; path = OpenEars/Classes/disc_meth.h; sourceTree = "<group>"; };
+		6317795F627987476D70B56A6A98D152 /* ngram_model_trie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_trie.h; path = OpenEars/Classes/ngram_model_trie.h; sourceTree = "<group>"; };
+		63972A76A156BBE0932D9E704273B248 /* text2idngram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = text2idngram.h; path = OpenEars/Classes/text2idngram.h; sourceTree = "<group>"; };
+		64A05DEC2DAB08ADC6AB4AD5C2C13D30 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = OpenEars/Classes/config.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66206AFBDA4180154851E87ADC982548 /* cst_regex_defs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_regex_defs.h; path = OpenEars/Classes/cst_regex_defs.h; sourceTree = "<group>"; };
+		67E381E5EF19CCA577542BB7EC5AC2B7 /* fe_warp_inverse_linear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_warp_inverse_linear.h; path = OpenEars/Classes/fe_warp_inverse_linear.h; sourceTree = "<group>"; };
+		6817659807FAA197C7E846C280406EDB /* us_durz_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_durz_cart.h; path = OpenEars/Classes/us_durz_cart.h; sourceTree = "<group>"; };
+		6862A875378253793FC67A489C10EB38 /* ngram_search_fwdtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_search_fwdtree.h; path = OpenEars/Classes/ngram_search_fwdtree.h; sourceTree = "<group>"; };
+		69F259A0FB128F48A12F2E7044E51DFE /* jsgf_scanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jsgf_scanner.h; path = OpenEars/Classes/jsgf_scanner.h; sourceTree = "<group>"; };
+		6BFCEF916BA85843DDB74759D88BAAEE /* ngram_model_legacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_legacy.h; path = OpenEars/Classes/ngram_model_legacy.h; sourceTree = "<group>"; };
+		6C171EFC4F2FDF0E25244F53E95CE80E /* Pods-Missile Mania.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Missile Mania.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF5FD6FE9B715E4995C69E0FDC40EEC /* Pods_Missile_Mania.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Missile_Mania.framework; path = "Pods-Missile Mania.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71106F0252531B1C65AF89A2AA680554 /* toolkit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = toolkit.h; path = OpenEars/Classes/toolkit.h; sourceTree = "<group>"; };
+		71A33BCE87F68250CCFA242DB7DB8E06 /* stats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stats.h; path = OpenEars/Classes/stats.h; sourceTree = "<group>"; };
+		7285F3C1FF20E821BDB83637A7EC9F72 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = OpenEars/Classes/bio.h; sourceTree = "<group>"; };
+		73C752EFD1DD404F2095B29A5008B3D0 /* ngram_model_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_internal.h; path = OpenEars/Classes/ngram_model_internal.h; sourceTree = "<group>"; };
+		75585DC815C19A82C4A85437BCD6C90F /* fe_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_internal.h; path = OpenEars/Classes/fe_internal.h; sourceTree = "<group>"; };
+		76669B2AB63DEB66F83994476A2D95A2 /* cst_relation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_relation.h; path = OpenEars/Classes/cst_relation.h; sourceTree = "<group>"; };
+		7679CFB6923327731FBE346B361DE614 /* OEAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEAudioUtilities.h; path = OpenEars/Classes/OEAudioUtilities.h; sourceTree = "<group>"; };
+		78E9B7B78AAF5C88635898C9BBA6707A /* cst_item.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_item.h; path = OpenEars/Classes/cst_item.h; sourceTree = "<group>"; };
+		7A5F8999232A09206F33B31DB1881934 /* prim_type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prim_type.h; path = OpenEars/Classes/prim_type.h; sourceTree = "<group>"; };
+		7BDE8E51D8097ED008A1F14A35F0796D /* fe_warp_piecewise_linear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_warp_piecewise_linear.h; path = OpenEars/Classes/fe_warp_piecewise_linear.h; sourceTree = "<group>"; };
+		7D65E1235B989950608908945BD3DC14 /* cst_vc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_vc.h; path = OpenEars/Classes/cst_vc.h; sourceTree = "<group>"; };
+		7F194D6621F87AF240A1B8150424B4BE /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = OpenEars/Classes/err.h; sourceTree = "<group>"; };
+		8056A0854F0E9C634C93B4790B15AC12 /* ps_alignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ps_alignment.h; path = OpenEars/Classes/ps_alignment.h; sourceTree = "<group>"; };
+		81A0938FCAEEE3885B8F6A0BE657E936 /* cmn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmn.h; path = OpenEars/Classes/cmn.h; sourceTree = "<group>"; };
+		828670CB21E3F60EEAD3609DD0D4EF2F /* cst_sigpr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_sigpr.h; path = OpenEars/Classes/cst_sigpr.h; sourceTree = "<group>"; };
+		835287BAA39752F202169752AF1B70E9 /* ngram_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_search.h; path = OpenEars/Classes/ngram_search.h; sourceTree = "<group>"; };
+		859E840D4DF83D2464C5B2C24AC7828E /* cst_synth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_synth.h; path = OpenEars/Classes/cst_synth.h; sourceTree = "<group>"; };
+		878F9DADF97C306256D8C4BB519CA234 /* cst_args.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_args.h; path = OpenEars/Classes/cst_args.h; sourceTree = "<group>"; };
+		8904DD6847AEC9C641075DA6C4C33AED /* pc_general.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pc_general.h; path = OpenEars/Classes/pc_general.h; sourceTree = "<group>"; };
+		8A7D84C35F69DD8379C82B2B6C0398C8 /* Pods-Missile Mania-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Missile Mania-dummy.m"; sourceTree = "<group>"; };
+		8E984F36F52BC4E68A7F9F9BD18C567C /* bo_ng_prob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bo_ng_prob.h; path = OpenEars/Classes/bo_ng_prob.h; sourceTree = "<group>"; };
+		9004F7F13410A33AC191C663A95D62E9 /* fe_prespch_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_prespch_buf.h; path = OpenEars/Classes/fe_prespch_buf.h; sourceTree = "<group>"; };
+		914ADAECC28928D65EAE093A2C4C5921 /* ms_gauden.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ms_gauden.h; path = OpenEars/Classes/ms_gauden.h; sourceTree = "<group>"; };
+		9153057FD47460B65500DE7532EE6A47 /* fsg_lextree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fsg_lextree.h; path = OpenEars/Classes/fsg_lextree.h; sourceTree = "<group>"; };
+		91ECBD9B0C7916A665B6ED8951872F8D /* strfuncs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strfuncs.h; path = OpenEars/Classes/strfuncs.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948ECA77B010498685A57ADE0CD8D7DB /* clapack_lite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clapack_lite.h; path = OpenEars/Classes/clapack_lite.h; sourceTree = "<group>"; };
+		96B124EED8AA519418875716BC16EC46 /* ngrams_raw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngrams_raw.h; path = OpenEars/Classes/ngrams_raw.h; sourceTree = "<group>"; };
+		99752402780F89047CA2FFF59EF1A5C8 /* glist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = glist.h; path = OpenEars/Classes/glist.h; sourceTree = "<group>"; };
+		9B154ED874574051E75D513C21B2FCDD /* OERuntimeVerbosity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OERuntimeVerbosity.h; path = OpenEars/Classes/OERuntimeVerbosity.h; sourceTree = "<group>"; };
+		9B7C854AC833993B4392318F54919489 /* OEDynamicMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEDynamicMethod.h; path = OpenEars/Classes/OEDynamicMethod.h; sourceTree = "<group>"; };
+		9DF0232EEE0BE8EB3FB31F8B2DF3055B /* general.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = general.h; path = OpenEars/Classes/general.h; sourceTree = "<group>"; };
+		9F8D00B4DDA9D73BCBFEA89BC4D48F8A /* allphone_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allphone_search.h; path = OpenEars/Classes/allphone_search.h; sourceTree = "<group>"; };
+		A0DBFCC814C9C8F375BE1C014AB1DD52 /* cst_lts_rewrites.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_lts_rewrites.h; path = OpenEars/Classes/cst_lts_rewrites.h; sourceTree = "<group>"; };
+		A5CC4406EC05BB38FE4AAB9711975BD8 /* OESmartCMN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OESmartCMN.h; path = OpenEars/Classes/OESmartCMN.h; sourceTree = "<group>"; };
+		A5D2E05CA9B4F614599711EAF19486CD /* disc_meth_good_turing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = disc_meth_good_turing.h; path = OpenEars/Classes/disc_meth_good_turing.h; sourceTree = "<group>"; };
+		A69306FB196B4BB8A7D456385E822D03 /* ad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ad.h; path = OpenEars/Classes/ad.h; sourceTree = "<group>"; };
+		A6E984296790CB8ED0A2029FA2FDA98E /* ms_senone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ms_senone.h; path = OpenEars/Classes/ms_senone.h; sourceTree = "<group>"; };
+		A85FE8A2E4158DEED7E9D26781AC1979 /* cmu_lex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmu_lex.h; path = OpenEars/Classes/cmu_lex.h; sourceTree = "<group>"; };
+		AB37C37D1C1E63F4260413D8723C68DF /* cst_sts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_sts.h; path = OpenEars/Classes/cst_sts.h; sourceTree = "<group>"; };
+		AB540566E0783191F9FF435C08DCE3FA /* OECMUCLMTKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OECMUCLMTKModel.h; path = OpenEars/Classes/OECMUCLMTKModel.h; sourceTree = "<group>"; };
+		AF2C4B48C89AE8F396AA494AB7B5211B /* ngram_model_set.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_set.h; path = OpenEars/Classes/ngram_model_set.h; sourceTree = "<group>"; };
+		B11F6F35F3BB2A278C797C662AE0D070 /* idngram2lm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idngram2lm.h; path = OpenEars/Classes/idngram2lm.h; sourceTree = "<group>"; };
+		B1D813B56EA1CC4E38D1E08C65297D2E /* Pods-Missile Mania-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Missile Mania-umbrella.h"; sourceTree = "<group>"; };
+		B24B2B8CACB0CE3BF396BE38CE0EB4B7 /* kws_detections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kws_detections.h; path = OpenEars/Classes/kws_detections.h; sourceTree = "<group>"; };
+		B257A75386E1AD748869AA1A6BAC4E55 /* ac_lmfunc_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ac_lmfunc_impl.h; path = OpenEars/Classes/ac_lmfunc_impl.h; sourceTree = "<group>"; };
+		B3508B1D3C0A910E64A5315984AF97FC /* us_int_tone_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_int_tone_cart.h; path = OpenEars/Classes/us_int_tone_cart.h; sourceTree = "<group>"; };
+		B474E96039CD9AB114911BD3B723EBC5 /* fe_type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_type.h; path = OpenEars/Classes/fe_type.h; sourceTree = "<group>"; };
+		B72783A3C504AA59244F5C52E47F8CCB /* cst_mlsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_mlsa.h; path = OpenEars/Classes/cst_mlsa.h; sourceTree = "<group>"; };
+		B935D9323A94C50D64BCA6B113D04563 /* pocketsphinx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pocketsphinx.h; path = OpenEars/Classes/pocketsphinx.h; sourceTree = "<group>"; };
+		BAD601C0699F00C30C61194A7AB5597F /* huff_code.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = huff_code.h; path = OpenEars/Classes/huff_code.h; sourceTree = "<group>"; };
+		BC91BBE3636813967CBF396809F9828A /* disc_meth_linear.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = disc_meth_linear.h; path = OpenEars/Classes/disc_meth_linear.h; sourceTree = "<group>"; };
+		BE793ABD33CE8B4DB5AC86658809FA37 /* f2c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = f2c.h; path = OpenEars/Classes/f2c.h; sourceTree = "<group>"; };
+		BEF4242CD43284D894545F6B57E3CC89 /* s3types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = s3types.h; path = OpenEars/Classes/s3types.h; sourceTree = "<group>"; };
+		C061D7389B31FD070425CC4FBDCEA4AF /* agc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = agc.h; path = OpenEars/Classes/agc.h; sourceTree = "<group>"; };
+		C26EE6EF06B523C79C52B6F5F06A15D5 /* cst_utt_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_utt_utils.h; path = OpenEars/Classes/cst_utt_utils.h; sourceTree = "<group>"; };
+		C2E886D2CF1901C436A15E000B384281 /* OENotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OENotification.h; path = OpenEars/Classes/OENotification.h; sourceTree = "<group>"; };
+		C36C76FE90553416516512A6EAF41AAB /* ac_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ac_hash.h; path = OpenEars/Classes/ac_hash.h; sourceTree = "<group>"; };
+		C40FE6D34FA534FB2611CF6D1D367884 /* ps_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ps_search.h; path = OpenEars/Classes/ps_search.h; sourceTree = "<group>"; };
+		C651C0A41814D7418DB0591D5D5D082A /* ptm_mgau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptm_mgau.h; path = OpenEars/Classes/ptm_mgau.h; sourceTree = "<group>"; };
+		C671524CCD10AC50E89541B60D0B3FDC /* cst_cg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_cg.h; path = OpenEars/Classes/cst_cg.h; sourceTree = "<group>"; };
+		C7FBCE34E2AE7BC57EF638456B34F50F /* ngram_model_internal_legacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_internal_legacy.h; path = OpenEars/Classes/ngram_model_internal_legacy.h; sourceTree = "<group>"; };
+		CA4EBDF5852F5E58888E6D3B89A3FF1D /* OEAcousticModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEAcousticModel.h; path = OpenEars/Classes/OEAcousticModel.h; sourceTree = "<group>"; };
+		CAFF004630279D83051B4AF582839788 /* cst_phoneset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_phoneset.h; path = OpenEars/Classes/cst_phoneset.h; sourceTree = "<group>"; };
+		CB05E3666E938B6C119EEF2A6CE13C60 /* sphinxbase_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sphinxbase_export.h; path = OpenEars/Classes/sphinxbase_export.h; sourceTree = "<group>"; };
+		CD4100956DFCD7AD5806BA8E78CDB922 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDE0903B591F5BFB2248032B27FF4D3 /* disc_meth_absolute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = disc_meth_absolute.h; path = OpenEars/Classes/disc_meth_absolute.h; sourceTree = "<group>"; };
+		CE79DE14DF5024FDA76B3A53EFB6C2BF /* OEEventsObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEEventsObserver.h; path = OpenEars/Classes/OEEventsObserver.h; sourceTree = "<group>"; };
+		D2F53CD71AA5478F0B90E2CA8D4DEE67 /* tied_mgau_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tied_mgau_common.h; path = OpenEars/Classes/tied_mgau_common.h; sourceTree = "<group>"; };
+		D340ACF9F5014CAF607B032FB62EAABD /* kws_search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kws_search.h; path = OpenEars/Classes/kws_search.h; sourceTree = "<group>"; };
+		D45FE6EBEBAEBF828E6F30F9EE06F9FB /* Pods-Missile Mania-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Missile Mania-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4ADE0A378E19AAF8910299CC5F0D6C3 /* cst_math.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_math.h; path = OpenEars/Classes/cst_math.h; sourceTree = "<group>"; };
+		D5A55B770BAE1139CCE28CD4F0C2581E /* Pods-Missile Mania.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Missile Mania.modulemap"; sourceTree = "<group>"; };
+		D86CF68A6948C4DC49D9F0A29BCDEB55 /* text2wfreq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = text2wfreq.h; path = OpenEars/Classes/text2wfreq.h; sourceTree = "<group>"; };
+		D8E78D458C9503506BBE90A6439BC3DD /* ngram_model_arpa_legacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_arpa_legacy.h; path = OpenEars/Classes/ngram_model_arpa_legacy.h; sourceTree = "<group>"; };
+		DA6F3015BAFE9436F2023C884F11C2FF /* cst_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_audio.h; path = OpenEars/Classes/cst_audio.h; sourceTree = "<group>"; };
+		DB266C964C337797CD3E364AE631F11D /* cst_voice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_voice.h; path = OpenEars/Classes/cst_voice.h; sourceTree = "<group>"; };
+		DB3A19AC1390133135727C02FD2CCFD7 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = OpenEars/Classes/dict.h; sourceTree = "<group>"; };
+		DD8ABC8DF573706CD8D4D499A51E3311 /* OELogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OELogging.h; path = OpenEars/Classes/OELogging.h; sourceTree = "<group>"; };
+		DEBC01BE8B7D660B72A208AF5E18322B /* profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = profile.h; path = OpenEars/Classes/profile.h; sourceTree = "<group>"; };
+		E02100FB27B5ABCF64473E4290EED29D /* cst_ss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_ss.h; path = OpenEars/Classes/cst_ss.h; sourceTree = "<group>"; };
+		E0EACA65C9B6E8DC6A96888BB511B84E /* acmod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = acmod.h; path = OpenEars/Classes/acmod.h; sourceTree = "<group>"; };
+		E2F60F04EC061958C0C736B1E5331DE3 /* bitarr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitarr.h; path = OpenEars/Classes/bitarr.h; sourceTree = "<group>"; };
+		E41788A27AAF2E0F064C28BDF783E1A1 /* cst_regex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_regex.h; path = OpenEars/Classes/cst_regex.h; sourceTree = "<group>"; };
+		E44314CEEA6B1057D74FE1C3C8FD941F /* OEVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEVersion.h; path = OpenEars/Classes/OEVersion.h; sourceTree = "<group>"; };
+		E560DD7E64A31F26EE34D5E35C742FEF /* jsgf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jsgf.h; path = OpenEars/Classes/jsgf.h; sourceTree = "<group>"; };
+		E5A238B8698272656625CD7550F37062 /* ngram_model_dmp_legacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_dmp_legacy.h; path = OpenEars/Classes/ngram_model_dmp_legacy.h; sourceTree = "<group>"; };
+		E787F18B3D4E2A70863853B84C3E1736 /* dict2pid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict2pid.h; path = OpenEars/Classes/dict2pid.h; sourceTree = "<group>"; };
+		E80B66904AE6CFD4CF92AAB288C5A8FF /* us_f0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_f0.h; path = OpenEars/Classes/us_f0.h; sourceTree = "<group>"; };
+		E8E9B6E40D26FF79FA0A02CE85316223 /* blkarray_list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blkarray_list.h; path = OpenEars/Classes/blkarray_list.h; sourceTree = "<group>"; };
+		E990D2106DD7050BB7DCC7FB9B032022 /* cst_val_defs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_val_defs.h; path = OpenEars/Classes/cst_val_defs.h; sourceTree = "<group>"; };
+		E9CF561A78427E78A0C28D728940E0F2 /* cst_error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_error.h; path = OpenEars/Classes/cst_error.h; sourceTree = "<group>"; };
+		EA52898B374486E404CAF48AC59B82D9 /* pocketsphinx_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pocketsphinx_export.h; path = OpenEars/Classes/pocketsphinx_export.h; sourceTree = "<group>"; };
+		EB5D6D663D4549752023042AC979F6D8 /* us_ffeatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = us_ffeatures.h; path = OpenEars/Classes/us_ffeatures.h; sourceTree = "<group>"; };
+		EDA23C4A4046E2BB814694D44357391C /* OEContinuousModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEContinuousModel.h; path = OpenEars/Classes/OEContinuousModel.h; sourceTree = "<group>"; };
+		EE11C2DEBF838F35386915B099E48BAE /* evallm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evallm.h; path = OpenEars/Classes/evallm.h; sourceTree = "<group>"; };
+		F12D34FFFDE99438096519218B365652 /* cst_cart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_cart.h; path = OpenEars/Classes/cst_cart.h; sourceTree = "<group>"; };
+		F15B54C50AFF7E40691A8637FD136B94 /* cst_mlpg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_mlpg.h; path = OpenEars/Classes/cst_mlpg.h; sourceTree = "<group>"; };
+		F214C2C2FEC9512C4B7E95C4AB541434 /* cst_alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_alloc.h; path = OpenEars/Classes/cst_alloc.h; sourceTree = "<group>"; };
+		F36985FDB0F16E00270E47D7909D2634 /* ngram_model_set_legacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ngram_model_set_legacy.h; path = OpenEars/Classes/ngram_model_set_legacy.h; sourceTree = "<group>"; };
+		F49A40920CD2F02A48F3D2C37B6152C6 /* cst_track.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cst_track.h; path = OpenEars/Classes/cst_track.h; sourceTree = "<group>"; };
+		F4D24A202A9C92BE3B09276FDD03AF6B /* bin_mdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bin_mdef.h; path = OpenEars/Classes/bin_mdef.h; sourceTree = "<group>"; };
+		F66D57040992CBA1DF056C034BC92068 /* usenglish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = usenglish.h; path = OpenEars/Classes/usenglish.h; sourceTree = "<group>"; };
+		F7C9E302B024941AEB62EE62CFA6424A /* OEFliteVoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OEFliteVoice.h; path = OpenEars/Classes/OEFliteVoice.h; sourceTree = "<group>"; };
+		F80A9A0EE9A0FEFB31D1BF2CDD3B2885 /* fsg_search_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fsg_search_internal.h; path = OpenEars/Classes/fsg_search_internal.h; sourceTree = "<group>"; };
+		F9157B44EB18077C9124049E535D1671 /* vector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vector.h; path = OpenEars/Classes/vector.h; sourceTree = "<group>"; };
+		F9456C3A371A65A3869F6D4DEF767F2B /* fe_warp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fe_warp.h; path = OpenEars/Classes/fe_warp.h; sourceTree = "<group>"; };
+		FB5DD7B2221C30D0AE6514756CEA70CF /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FDC0FE95990F80EF0EF5038D266EF19B /* tmat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tmat.h; path = OpenEars/Classes/tmat.h; sourceTree = "<group>"; };
+		FF4BEBA78513E4E40B947F23EA1DB0C0 /* lm_trie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lm_trie.h; path = OpenEars/Classes/lm_trie.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B264718D74BC3DDB15A1DBDA8199FDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC78A445790B2648FFEC5BA525BEFD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FCF63DEBA1848F4F5B84516C76E0C9B /* OpenEars */ = {
+			isa = PBXGroup;
+			children = (
+				C36C76FE90553416516512A6EAF41AAB /* ac_hash.h */,
+				B257A75386E1AD748869AA1A6BAC4E55 /* ac_lmfunc_impl.h */,
+				4FFDB6F06F304F78779B4481A557697C /* ac_parsetext.h */,
+				E0EACA65C9B6E8DC6A96888BB511B84E /* acmod.h */,
+				A69306FB196B4BB8A7D456385E822D03 /* ad.h */,
+				C061D7389B31FD070425CC4FBDCEA4AF /* agc.h */,
+				9F8D00B4DDA9D73BCBFEA89BC4D48F8A /* allphone_search.h */,
+				F4D24A202A9C92BE3B09276FDD03AF6B /* bin_mdef.h */,
+				7285F3C1FF20E821BDB83637A7EC9F72 /* bio.h */,
+				E2F60F04EC061958C0C736B1E5331DE3 /* bitarr.h */,
+				2CCE4403D9E516DA0539A7482168E371 /* bitvec.h */,
+				E8E9B6E40D26FF79FA0A02CE85316223 /* blkarray_list.h */,
+				8E984F36F52BC4E68A7F9F9BD18C567C /* bo_ng_prob.h */,
+				53CAF9CC525D558E8B162F1B16037401 /* byteorder.h */,
+				1F439CC2A73214FFE27990A16E61ACA2 /* case.h */,
+				44BFCC8C592DFE6944089A0D19C1EFB8 /* ckd_alloc.h */,
+				948ECA77B010498685A57ADE0CD8D7DB /* clapack_lite.h */,
+				0A81D1E673F4856EEAF6651EDE5369BC /* cmd_ln.h */,
+				276EA85A6DB0CD9EB34C7BADDBD42832 /* cmd_ln_defn.h */,
+				08C5A31726921EF24D601864DB153804 /* cmdln_macro.h */,
+				81A0938FCAEEE3885B8F6A0BE657E936 /* cmn.h */,
+				A85FE8A2E4158DEED7E9D26781AC1979 /* cmu_lex.h */,
+				4ADFDFCFA010B2851DCF12E813F5046A /* cmu_lts_model.h */,
+				64A05DEC2DAB08ADC6AB4AD5C2C13D30 /* config.h */,
+				F214C2C2FEC9512C4B7E95C4AB541434 /* cst_alloc.h */,
+				878F9DADF97C306256D8C4BB519CA234 /* cst_args.h */,
+				DA6F3015BAFE9436F2023C884F11C2FF /* cst_audio.h */,
+				F12D34FFFDE99438096519218B365652 /* cst_cart.h */,
+				C671524CCD10AC50E89541B60D0B3FDC /* cst_cg.h */,
+				3AA2B0124B83B8DCD8A23BA0A5F96DE0 /* cst_clunits.h */,
+				2D0248A4E5C8D8DE8B598C9FD7431394 /* cst_diphone.h */,
+				4425C3566DC3269D6BAE26552A7DAAB4 /* cst_endian.h */,
+				E9CF561A78427E78A0C28D728940E0F2 /* cst_error.h */,
+				18E695039552C24818F020000A5CD501 /* cst_features.h */,
+				1EB461051ECFC9FB67E27BA849527BC1 /* cst_ffeatures.h */,
+				13CE80278FE039723D13F4C3C9A1843F /* cst_file.h */,
+				2A21AA28CD6A1192B8304F4E2A8FED86 /* cst_hrg.h */,
+				78E9B7B78AAF5C88635898C9BBA6707A /* cst_item.h */,
+				5474949FD76942DCF25A23BBF24F440E /* cst_lexicon.h */,
+				3469C08CE8C02050BC9D417A96CF30FD /* cst_lts.h */,
+				A0DBFCC814C9C8F375BE1C014AB1DD52 /* cst_lts_rewrites.h */,
+				D4ADE0A378E19AAF8910299CC5F0D6C3 /* cst_math.h */,
+				F15B54C50AFF7E40691A8637FD136B94 /* cst_mlpg.h */,
+				B72783A3C504AA59244F5C52E47F8CCB /* cst_mlsa.h */,
+				CAFF004630279D83051B4AF582839788 /* cst_phoneset.h */,
+				E41788A27AAF2E0F064C28BDF783E1A1 /* cst_regex.h */,
+				66206AFBDA4180154851E87ADC982548 /* cst_regex_defs.h */,
+				76669B2AB63DEB66F83994476A2D95A2 /* cst_relation.h */,
+				828670CB21E3F60EEAD3609DD0D4EF2F /* cst_sigpr.h */,
+				44267099100772CBB8E0C4C04EAB8204 /* cst_socket.h */,
+				E02100FB27B5ABCF64473E4290EED29D /* cst_ss.h */,
+				197C21AFC8DA657D4802F983B27608CE /* cst_string.h */,
+				AB37C37D1C1E63F4260413D8723C68DF /* cst_sts.h */,
+				859E840D4DF83D2464C5B2C24AC7828E /* cst_synth.h */,
+				02F531E384C17B8BB76BBF80AC66FD75 /* cst_tokenstream.h */,
+				F49A40920CD2F02A48F3D2C37B6152C6 /* cst_track.h */,
+				59ECDF27CD23B17C5FB3B52DCCC22665 /* cst_units.h */,
+				C26EE6EF06B523C79C52B6F5F06A15D5 /* cst_utt_utils.h */,
+				6112CE7F05A59D037E285D230A056A33 /* cst_utterance.h */,
+				29DBB8394AE25908A944700D5C981629 /* cst_val.h */,
+				2015CA16365D0D25EB11A881BB784BBB /* cst_val_const.h */,
+				E990D2106DD7050BB7DCC7FB9B032022 /* cst_val_defs.h */,
+				7D65E1235B989950608908945BD3DC14 /* cst_vc.h */,
+				4C5DAB17742EB6202828C046C3273E50 /* cst_viterbi.h */,
+				DB266C964C337797CD3E364AE631F11D /* cst_voice.h */,
+				4DE701C340AD9057E0EFC2F83BA308A3 /* cst_wave.h */,
+				46DBE42C20DA4E0B9DA1204DAA5A13EF /* cst_wchar.h */,
+				DB3A19AC1390133135727C02FD2CCFD7 /* dict.h */,
+				E787F18B3D4E2A70863853B84C3E1736 /* dict2pid.h */,
+				62B9CF209F3D7B3429C95EB8A2C06BD6 /* disc_meth.h */,
+				CDDE0903B591F5BFB2248032B27FF4D3 /* disc_meth_absolute.h */,
+				A5D2E05CA9B4F614599711EAF19486CD /* disc_meth_good_turing.h */,
+				BC91BBE3636813967CBF396809F9828A /* disc_meth_linear.h */,
+				2DFFF538AAF7086E5699B446CDBEC9AD /* disc_meth_witten_bell.h */,
+				7F194D6621F87AF240A1B8150424B4BE /* err.h */,
+				EE11C2DEBF838F35386915B099E48BAE /* evallm.h */,
+				BE793ABD33CE8B4DB5AC86658809FA37 /* f2c.h */,
+				2CEE8699B24E32FA79732D432C3CAA5A /* fe.h */,
+				75585DC815C19A82C4A85437BCD6C90F /* fe_internal.h */,
+				4FCE767A8ADE9012649E896954247BEA /* fe_noise.h */,
+				9004F7F13410A33AC191C663A95D62E9 /* fe_prespch_buf.h */,
+				B474E96039CD9AB114911BD3B723EBC5 /* fe_type.h */,
+				F9456C3A371A65A3869F6D4DEF767F2B /* fe_warp.h */,
+				5C68D6200148A91FB4AEA75B637CDDFE /* fe_warp_affine.h */,
+				67E381E5EF19CCA577542BB7EC5AC2B7 /* fe_warp_inverse_linear.h */,
+				7BDE8E51D8097ED008A1F14A35F0796D /* fe_warp_piecewise_linear.h */,
+				301FA65DAE9A454398FC3AE6DE48E4C4 /* feat.h */,
+				1E303C2D1BCA345AC99DE83F9DC79FE9 /* filename.h */,
+				584DEE92FBCCBD6ACCD186471F66DC54 /* fixpoint.h */,
+				13B53CCD1695D6DCA54914C1E0565216 /* flite.h */,
+				2E125EEB8BDDE7976CEA255A0D10879D /* fsg_history.h */,
+				9153057FD47460B65500DE7532EE6A47 /* fsg_lextree.h */,
+				22890D6240846935B94200BD6FDEA3B8 /* fsg_model.h */,
+				F80A9A0EE9A0FEFB31D1BF2CDD3B2885 /* fsg_search_internal.h */,
+				9DF0232EEE0BE8EB3FB31F8B2DF3055B /* general.h */,
+				23A6C38EA5A99FA7E9E56A3795C1EC7E /* genrand.h */,
+				99752402780F89047CA2FFF59EF1A5C8 /* glist.h */,
+				5D8FB27A5E26B8B27DB9D6B342C376D5 /* hash_table.h */,
+				4D621D81E5BE53342162E9732D8E45B7 /* heap.h */,
+				33FBBEB4351207938DD9AD514273E526 /* hmm.h */,
+				BAD601C0699F00C30C61194A7AB5597F /* huff_code.h */,
+				B11F6F35F3BB2A278C797C662AE0D070 /* idngram2lm.h */,
+				E560DD7E64A31F26EE34D5E35C742FEF /* jsgf.h */,
+				3ECF53F4FB19ACE99885383DD0D8D23E /* jsgf_internal.h */,
+				1F2F5DABD3627BEE0C725CB94163F4D0 /* jsgf_parser.h */,
+				69F259A0FB128F48A12F2E7044E51DFE /* jsgf_scanner.h */,
+				B24B2B8CACB0CE3BF396BE38CE0EB4B7 /* kws_detections.h */,
+				D340ACF9F5014CAF607B032FB62EAABD /* kws_search.h */,
+				5056BF08E1EB7134A9573668F686D3DC /* listelem_alloc.h */,
+				5559B466D41ACB1C188ECFD013BCFAC2 /* lm3g_model_legacy.h */,
+				FF4BEBA78513E4E40B947F23EA1DB0C0 /* lm_trie.h */,
+				22688F28424116E64034EA9793083784 /* lm_trie_quant.h */,
+				5E4BB025EDF719B91E4D38054AE2CDEA /* logmath.h */,
+				3FA65B54B88D532515B3F646D7D017DE /* matrix.h */,
+				62A0C9C9DEAAEC7EA82CF218AE051129 /* mdef.h */,
+				4C69249C089CC1DAD8F3E29EDC831111 /* mmio.h */,
+				914ADAECC28928D65EAE093A2C4C5921 /* ms_gauden.h */,
+				2113760843A5042AF76DB79AF62A5831 /* ms_mgau.h */,
+				A6E984296790CB8ED0A2029FA2FDA98E /* ms_senone.h */,
+				3D8CA63EBB214C8BE03D210F3D28F0B3 /* mulaw.h */,
+				125FACD342258568A2E8B211849DFA30 /* native_audio.h */,
+				152F89190367A35DD193C4605E172B07 /* ngram.h */,
+				58356DFF29126D35F0F861CAA9B95EE4 /* ngram_model.h */,
+				D8E78D458C9503506BBE90A6439BC3DD /* ngram_model_arpa_legacy.h */,
+				E5A238B8698272656625CD7550F37062 /* ngram_model_dmp_legacy.h */,
+				73C752EFD1DD404F2095B29A5008B3D0 /* ngram_model_internal.h */,
+				C7FBCE34E2AE7BC57EF638456B34F50F /* ngram_model_internal_legacy.h */,
+				6BFCEF916BA85843DDB74759D88BAAEE /* ngram_model_legacy.h */,
+				AF2C4B48C89AE8F396AA494AB7B5211B /* ngram_model_set.h */,
+				F36985FDB0F16E00270E47D7909D2634 /* ngram_model_set_legacy.h */,
+				6317795F627987476D70B56A6A98D152 /* ngram_model_trie.h */,
+				835287BAA39752F202169752AF1B70E9 /* ngram_search.h */,
+				4226A318F87062F11B266CB0BE671D75 /* ngram_search_fwdflat.h */,
+				6862A875378253793FC67A489C10EB38 /* ngram_search_fwdtree.h */,
+				96B124EED8AA519418875716BC16EC46 /* ngrams_raw.h */,
+				CA4EBDF5852F5E58888E6D3B89A3FF1D /* OEAcousticModel.h */,
+				7679CFB6923327731FBE346B361DE614 /* OEAudioUtilities.h */,
+				AB540566E0783191F9FF435C08DCE3FA /* OECMUCLMTKModel.h */,
+				5A4A7DA83F3812BA98A5B514D04A0CC0 /* OECommandArray.h */,
+				619206B3CADFDDB6E4956F8564BA23CC /* OEContinuousAudioUnit.h */,
+				EDA23C4A4046E2BB814694D44357391C /* OEContinuousModel.h */,
+				9B7C854AC833993B4392318F54919489 /* OEDynamicMethod.h */,
+				CE79DE14DF5024FDA76B3A53EFB6C2BF /* OEEventsObserver.h */,
+				39A1471705433E98F9B5ECDC60D99333 /* OEFliteController.h */,
+				F7C9E302B024941AEB62EE62CFA6424A /* OEFliteVoice.h */,
+				3D9A5CED54BB70829DAB887D86C17397 /* OEGrammarDefinitions.h */,
+				4FF1A9B0AB2AA58D1CBADDA7FE1B8004 /* OEGrammarGenerator.h */,
+				24FE28743E6C114D2EE09D6B34A44C8A /* OEGraphemeGenerator.h */,
+				101E13199C15BDBB446ED5CC45B808A3 /* OELanguageModelGenerator.h */,
+				DD8ABC8DF573706CD8D4D499A51E3311 /* OELogging.h */,
+				C2E886D2CF1901C436A15E000B384281 /* OENotification.h */,
+				020B252FF97F83311223E4FFDD26E2E8 /* OEPocketsphinxController.h */,
+				621A557BD91319492901EA23AA997542 /* OEPocketsphinxRunConfig.h */,
+				9B154ED874574051E75D513C21B2FCDD /* OERuntimeVerbosity.h */,
+				A5CC4406EC05BB38FE4AAB9711975BD8 /* OESmartCMN.h */,
+				E44314CEEA6B1057D74FE1C3C8FD941F /* OEVersion.h */,
+				8904DD6847AEC9C641075DA6C4C33AED /* pc_general.h */,
+				273F7DAFBD0DD6443E211BD3E9955CB4 /* phone_loop_search.h */,
+				0DD9BE739DDC30951E9E2FEBB99BC87F /* pio.h */,
+				B935D9323A94C50D64BCA6B113D04563 /* pocketsphinx.h */,
+				EA52898B374486E404CAF48AC59B82D9 /* pocketsphinx_export.h */,
+				4390635C2DA6159718ED17DF96A14C7E /* pocketsphinx_internal.h */,
+				7A5F8999232A09206F33B31DB1881934 /* prim_type.h */,
+				58360249CEA05B732A4FC518A1A2BB93 /* priority_queue.h */,
+				DEBC01BE8B7D660B72A208AF5E18322B /* profile.h */,
+				8056A0854F0E9C634C93B4790B15AC12 /* ps_alignment.h */,
+				1172130CEEDDF8EDC843126637B3C612 /* ps_lattice.h */,
+				43D89C3030563CEA5556BB63BE9E9666 /* ps_lattice_internal.h */,
+				3918AC32D66D12C61F405934C1D7560C /* ps_mllr.h */,
+				C40FE6D34FA534FB2611CF6D1D367884 /* ps_search.h */,
+				C651C0A41814D7418DB0591D5D5D082A /* ptm_mgau.h */,
+				5E0F0837B21EC29C5752BCF030FBF8C6 /* s2_semi_mgau.h */,
+				BEF4242CD43284D894545F6B57E3CC89 /* s3types.h */,
+				0DCDC974D603F63618292A1359052528 /* sbthread.h */,
+				5F7EBFF32807BD042275875D351119E0 /* sphinx_config.h */,
+				190E00E0BA4A78CE4D2CBCEFD5AEFF68 /* sphinx_wave2feat.h */,
+				CB05E3666E938B6C119EEF2A6CE13C60 /* sphinxbase_export.h */,
+				15EE9F6332295648A3028C4F9B67E57F /* state_align_search.h */,
+				71A33BCE87F68250CCFA242DB7DB8E06 /* stats.h */,
+				91ECBD9B0C7916A665B6ED8951872F8D /* strfuncs.h */,
+				63972A76A156BBE0932D9E704273B248 /* text2idngram.h */,
+				D86CF68A6948C4DC49D9F0A29BCDEB55 /* text2wfreq.h */,
+				D2F53CD71AA5478F0B90E2CA8D4DEE67 /* tied_mgau_common.h */,
+				FDC0FE95990F80EF0EF5038D266EF19B /* tmat.h */,
+				71106F0252531B1C65AF89A2AA680554 /* toolkit.h */,
+				6817659807FAA197C7E846C280406EDB /* us_durz_cart.h */,
+				E80B66904AE6CFD4CF92AAB288C5A8FF /* us_f0.h */,
+				EB5D6D663D4549752023042AC979F6D8 /* us_ffeatures.h */,
+				1F851AD40F5A7673D02860C9DE9F36CF /* us_int_accent_cart.h */,
+				B3508B1D3C0A910E64A5315984AF97FC /* us_int_tone_cart.h */,
+				47E6A315484FE694E748054663C30D5F /* us_nums_cart.h */,
+				15DE915ACE24927E7EB61C2E4E9B31A1 /* us_phrasing_cart.h */,
+				30CA68EF7C01772369FDD9056D33ED0A /* us_pos_cart.h */,
+				006167B5C18DE797A072D8EF44A9BB16 /* us_regexes.h */,
+				53D5DC2F4443A824E1879479EDD965FF /* us_text.h */,
+				F66D57040992CBA1DF056C034BC92068 /* usenglish.h */,
+				F9157B44EB18077C9124049E535D1671 /* vector.h */,
+				2D1C45008F83E951AE9CBF4381C53748 /* yin.h */,
+			);
+			name = OpenEars;
+			path = OpenEars;
+			sourceTree = "<group>";
+		};
+		20054912590DCAE09C6C1D5B2804D1CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32EF47E3429F16807F1953354D9A4FF3 /* Pods-Missile Mania */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C6C59452A079E35D7D9B75E04F53850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB5DD7B2221C30D0AE6514756CEA70CF /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32EF47E3429F16807F1953354D9A4FF3 /* Pods-Missile Mania */ = {
+			isa = PBXGroup;
+			children = (
+				CD4100956DFCD7AD5806BA8E78CDB922 /* Info.plist */,
+				D5A55B770BAE1139CCE28CD4F0C2581E /* Pods-Missile Mania.modulemap */,
+				3753CE0258A1CAC93DA02BC71FB5FC72 /* Pods-Missile Mania-acknowledgements.markdown */,
+				D45FE6EBEBAEBF828E6F30F9EE06F9FB /* Pods-Missile Mania-acknowledgements.plist */,
+				8A7D84C35F69DD8379C82B2B6C0398C8 /* Pods-Missile Mania-dummy.m */,
+				36831F18CB62C054B1FC98FDD62301FE /* Pods-Missile Mania-frameworks.sh */,
+				451E914723A689C29255016F1482412E /* Pods-Missile Mania-resources.sh */,
+				B1D813B56EA1CC4E38D1E08C65297D2E /* Pods-Missile Mania-umbrella.h */,
+				6C171EFC4F2FDF0E25244F53E95CE80E /* Pods-Missile Mania.debug.xcconfig */,
+				4AA1B7782C536E656CE34CAE7219DF11 /* Pods-Missile Mania.release.xcconfig */,
+			);
+			name = "Pods-Missile Mania";
+			path = "Target Support Files/Pods-Missile Mania";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F4EEFED7EF5BF8B27F5A8D7E916AD34A /* Pods */,
+				F0FB1D3FC67AE1E12D3A25C2CC2CD20E /* Products */,
+				20054912590DCAE09C6C1D5B2804D1CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9E1C2C5D1E54A88663FDB9CFC95EA37 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2C6C59452A079E35D7D9B75E04F53850 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		F0FB1D3FC67AE1E12D3A25C2CC2CD20E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF5FD6FE9B715E4995C69E0FDC40EEC /* Pods_Missile_Mania.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EEFED7EF5BF8B27F5A8D7E916AD34A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1C2C5D1E54A88663FDB9CFC95EA37 /* Google-Mobile-Ads-SDK */,
+				1FCF63DEBA1848F4F5B84516C76E0C9B /* OpenEars */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C941FA4398B46DBCA331A57257A6D29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CC7163035DE1940E326750100763CB /* Pods-Missile Mania-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E5BC52644A445FEF7A17516F11BF0BF8 /* Pods-Missile Mania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F0868046A538B8620C4CD5990925022 /* Build configuration list for PBXNativeTarget "Pods-Missile Mania" */;
+			buildPhases = (
+				ABA43A9AA2AEA86362E977A22A17AFEC /* Sources */,
+				B264718D74BC3DDB15A1DBDA8199FDF2 /* Frameworks */,
+				5C941FA4398B46DBCA331A57257A6D29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Missile Mania";
+			productName = "Pods-Missile Mania";
+			productReference = 6FF5FD6FE9B715E4995C69E0FDC40EEC /* Pods_Missile_Mania.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F0FB1D3FC67AE1E12D3A25C2CC2CD20E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5BC52644A445FEF7A17516F11BF0BF8 /* Pods-Missile Mania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA43A9AA2AEA86362E977A22A17AFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429DA0EF534A84F58B9A7A49522F91FB /* Pods-Missile Mania-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		200B7FD577463576FEFF440DEE146540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C171EFC4F2FDF0E25244F53E95CE80E /* Pods-Missile Mania.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Missile Mania/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Missile Mania/Pods-Missile Mania.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Missile_Mania;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BBED8F31430EED2A6C8A0B087F9A9D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA1B7782C536E656CE34CAE7219DF11 /* Pods-Missile Mania.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Missile Mania/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Missile Mania/Pods-Missile Mania.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Missile_Mania;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F0868046A538B8620C4CD5990925022 /* Build configuration list for PBXNativeTarget "Pods-Missile Mania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200B7FD577463576FEFF440DEE146540 /* Debug */,
+				BBED8F31430EED2A6C8A0B087F9A9D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

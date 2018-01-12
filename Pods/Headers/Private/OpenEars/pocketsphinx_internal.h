@@ -1,0 +1,1 @@
+../../../OpenEars/OpenEars/Classes/pocketsphinx_internal.h

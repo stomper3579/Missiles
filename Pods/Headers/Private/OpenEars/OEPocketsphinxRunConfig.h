@@ -1,0 +1,1 @@
+../../../OpenEars/OpenEars/Classes/OEPocketsphinxRunConfig.h
