@@ -17,21 +17,10 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        //To Do
-        //fire missile at slightly less angle
-        //bazooka-ish overlay
-        //first time opening game instructions overlay
-        //test missile speeds
-        
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
             if let scene = MainPage(fileNamed: "MainPage") {
-                // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
                 theScene = scene
-                // Present the scene
                 view.presentScene(scene)
             }
             
@@ -67,15 +56,6 @@ class GameViewController: UIViewController {
         // Release any cached data, images, etc that aren't in use.
     }
 
-    // MARK: - ARSCNViewDelegate
-    
-/*
-    // Override to create and configure nodes for anchors added to the view's session.
-    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-        let node = SCNNode()
-     
-        return node
-    }
-*/
+
     
 }

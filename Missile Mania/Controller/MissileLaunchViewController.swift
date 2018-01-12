@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Hello-AR
-//
-//  Created by Mohammad Azam on 6/18/17.
-//  Copyright © 2017 Mohammad Azam. All rights reserved.
-//
 
 import UIKit
 import SceneKit
@@ -69,12 +62,8 @@ GADInterstitialDelegate {
         self.sceneView = ARSCNView(frame: self.view.frame)
         self.view.addSubview(self.sceneView)
         
-        
-        // Set the view's delegate
         sceneView.delegate = self
         //sceneView.debugOptions = [.showPhysicsShapes]
-        
-        
         
         guard let launchUrl = Bundle.main.url(forResource: "cutLaunch", withExtension: "mp3") else { return }
         guard let explosionUrl = Bundle.main.url(forResource: "explosion", withExtension: "mp3") else { return }
@@ -87,31 +76,23 @@ GADInterstitialDelegate {
             explosionPlayer = try AVAudioPlayer(contentsOf: explosionUrl)
             launchPlayer = try AVAudioPlayer(contentsOf: launchUrl)
             sirenPlayer = try AVAudioPlayer(contentsOf: sirenUrl)
-            //guard let player = player else { return }
-            //player.numberOfLoops = -1
-            //player.play()
+        
             
         } catch let error {
             print(error.localizedDescription)
         }
-        
-        
-        
         
         // Show statistics such as fps and timing information
         //sceneView.showsStatistics = true
         
         sceneView.scene = scene
         self.sceneView.scene.physicsWorld.contactDelegate = self
-        //self.sceneView.scene.physicsWorld.
         GameOverlayScene = GameOverlay(fileNamed: "GameOverlay")
         GameIntroOverlayScene = GameIntroOverlay(fileNamed: "GameIntroOverlay")
-        //let overlayScene = SKScene(size: CGSizeMake(100, 100))
         GameOverlayScene?.scaleMode = .aspectFit
         GameIntroOverlayScene?.scaleMode = .aspectFit
         
-        //ret = GameOverlayScene?.childNode(withName: "reticle") as? SKSpriteNode
-        //instructions = GameOverlayScene?.childNode(withName: "textView") as? SKSpriteNode
+       
         mainCamera = GameOverlayScene?.childNode(withName: "MainCamera") as? SKCameraNode!
         if (mainCamera != nil) {
             print("camera not null")
@@ -134,7 +115,6 @@ GADInterstitialDelegate {
         
     }
     private func getLabels() {
-        //print("camera kids \(self.mainCamera?.children)")
         GameplayController.instance.scoreText = self.mainCamera?.childNode(withName: "ScoreText") as? SKLabelNode!
         GameplayController.instance.scoreText?.text = "0"
         
@@ -224,12 +204,7 @@ GADInterstitialDelegate {
         
         scene.rootNode.addChildNode(missile)
         
-        
-        //        guard let missileNode = self.sceneView.scene.rootNode.childNode(withName: "Missile", recursively: true)
-        //            else {
-        //                fatalError("Missile not found")
-        //        }
-        //
+    
         guard let smokeNode = missile.childNode(withName: "smokeNode", recursively: true) else {
             fatalError("no smoke node found")
         }
@@ -255,37 +230,7 @@ GADInterstitialDelegate {
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("touches")
-        
-//
-//        for touch in touches {
-//
-//            let location = touch.location(in: sceneView);
-//
-//            if nodes(at: location)[0].name == "HomeButton" {
-//                goHome()
-//            } else if nodes(at: location)[0].name == "RetryButton" {
-//                print("retry")
-//            }
-//
-//        }
-//
-        
-        
-//        let p = recognizer.location(in: sceneView)
-//        let hitResults = sceneView.hitTest(p, options: [:])
-//        // check that we clicked on at least one object
-//        if hitResults.count > 0 {
-//            // retrieved the first clicked object
-//            let result: AnyObject = hitResults[0]
-//            if let node: SKLabelNode = result as? SKLabelNode {
-//                if node.text == "Retry" {
-//                    print("we hit retry")
-//                } else if node.text == "Home" {
-//                    print("we hit home")
-//                }
-//                print("didn't hit either")
-//            }
-//        }
+   
     }
     
     @objc func shoot(recognizer :UIGestureRecognizer) {
@@ -331,8 +276,6 @@ GADInterstitialDelegate {
                 
                 print("shooting")
                 checker = 0
-                //let tempScene = sceneView.overlaySKScene as! GameOverlay
-                //print("alpha is \(GameOverlayScene?.ret?.alpha)")
                 
                 if shots.count >= 3 {
                     print("found them")
@@ -444,11 +387,6 @@ GADInterstitialDelegate {
     
         playSiren()
         
-//        DispatchQueue.main.async {
-//
-//            self.sceneView.removeGestureRecognizer(self.tapGestureRecognizer2!)
-//        }
-        
         GameplayController.instance.gameOver()
         
         GameOverOverlayScene = GameOverOverlay(fileNamed: "GameOverOverlay")
@@ -500,11 +438,7 @@ GADInterstitialDelegate {
         //self.performSegue(withIdentifier: "moveScreenSegue", sender: self)
         print("ending interstitial")
         
-//        if homeOrRetry == 1 {
-//            restart()
-//        } else {
-//            goHome()
-//        }
+
         
     }
     
